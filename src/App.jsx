@@ -1,6 +1,6 @@
 import "tailwindcss/tailwind.css";
 import "./App.css";
-import NavBar from "./containers/NavBar";
+import NavBar from "./components/NavBar";
 import Page from "./pages/Page";
 
 function App() {

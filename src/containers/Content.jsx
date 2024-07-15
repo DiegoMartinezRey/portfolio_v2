@@ -1,5 +1,6 @@
 import React from "react";
-import experiencesData from "../data/experiences.json";
+import Experience from "./Experiences";
+import Projects from "./Projects";
 
 const Content = () => {
   return (
@@ -7,15 +8,12 @@ const Content = () => {
       <div className="py-36 max-w-4xl flex flex-col items-center">
         <section className="p-4">
           <h2 className="m-2">Experiencia</h2>
-          <ul className="flex flex-col gap-3">
-            {experiencesData.map((experience, index) => (
-              <li key={index}>
-                <h3>{experience.name}</h3>
-              </li>
-            ))}
-          </ul>
+          <Experience />
         </section>
-        <section>Proyectos</section>
+        <section>
+          <h2 className="m-2">Proyectos</h2>
+          <Projects />
+        </section>
         <section>Sobre mi</section>
       </div>
     </>
