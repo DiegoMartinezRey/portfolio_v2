@@ -10,7 +10,7 @@ const Content = () => {
           <h2 className="m-2">Experiencia</h2>
           <Experience />
         </section>
-        <section>
+        <section className="p-4">
           <h2 className="m-2">Proyectos</h2>
           <Projects />
         </section>
